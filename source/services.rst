@@ -26,6 +26,7 @@ Python is used in the backend services, e.g. expose endpoints for the client
 configuration retrieval. The backend services talk to the etcd service via a
 localhost connection.
 
-gluon
+Gluon
 =====
-GLuon
+Gluon is a build system and package collection to build embedded router
+firmwares for Freifunk Communities. It is based on `OpenWrt <https://openwrt.org>`_.
