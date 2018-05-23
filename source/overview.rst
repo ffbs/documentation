@@ -12,7 +12,7 @@ provides the configuration for the client node type via the etcd service.
 Exit
 ====
 Exit nodes are the edge nodes which provide internet access to the FFBS network.
-The use Freifunk Rheinland as the exit network and need to provide NAT for this
+They use Freifunk Rheinland as the exit network and need to provide NAT for this
 service.
 
 Client

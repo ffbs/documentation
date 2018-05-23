@@ -12,7 +12,7 @@ between the concentrator nodes to provide configuration storage for the network.
 Wireguard
 =========
 Wireguard is a new in kernel VPN solution (`project link
-<http://www.wireguard.org/>`_). It is much faster than the fastd tunelling
+<http://www.wireguard.org/>`_). It is much faster than the fastd tunnelling
 solution in the old network and should provide faster client networking speeds.
 
 Lua
