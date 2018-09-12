@@ -30,3 +30,9 @@ Gluon
 =====
 Gluon is a build system and package collection to build embedded router
 firmwares for Freifunk Communities. It is based on `OpenWrt <https://openwrt.org>`_.
+
+Vagrant
+=======
+Vagrant is used as the testbed for ansible development. Take note that in order
+to use the ffbs-ansible repository, you'll have to setup your vagrant as
+described in the ffbs-ansible repository readme.
