@@ -56,3 +56,12 @@ for the gluon node.
        node -> node [label = "apply wireguard config (nodeconfig.lua)"];
        node -> concentrator [label = "wireguard connection"];
    }
+
+The node first checks for it's own wireguard private key and if it does not
+exist generates a new one. Then the configuration is requested with the
+wireguard public key, a random nonce, the v6mtu and the firmware version.
+The etcd server than returns a valid configuration in the form of a JSON object,
+which the nodeconfig.lua uses to configure the wireguard interfaces for
+the concentrators.
+The public key is added to the concentrator wireguard interfaces in parallel
+and the device is than connected to the freifunk network via wireguard.
