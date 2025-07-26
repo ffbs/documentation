@@ -6,7 +6,7 @@
 View
 ====
 
-Visit `Read the docs <https://freifunk-parker.readthedocs.io/`_.
+Visit `Read the docs <https://freifunk-parker.readthedocs.io/>`_.
 
 
 Build
