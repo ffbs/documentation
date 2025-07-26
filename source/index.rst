@@ -8,6 +8,7 @@ Welcome to the Freifunk Parker documentation!
 
 .. toctree::
    overview
+   design-choices
    services
    development
    :maxdepth: 2
