@@ -36,3 +36,21 @@ Vagrant
 Vagrant is used as the testbed for ansible development. Take note that in order
 to use the ffbs-ansible repository, you'll have to setup your vagrant as
 described in the ffbs-ansible repository readme.
+
+Nodeconfig
+==========
+The nodeconfig programm on the gluon nodes is responsible for loading/generating
+the wireguard connection key and fetching the initial configuration from etcd
+for the gluon node.
+
+.. seqdiag::
+   :align: center
+
+   seqdiag {
+       node; etcd; concentrator
+       node -> node [label = "fetch or load wireguard key"];
+       node -> etcd [label = "GET /config?(pubkey,nonce,v6mtu,version)"];
+       node <-- etcd [label = "JSON configuration"];
+       node -> node [label = "apply wireguard config (nodeconfig.lua)"];
+       node -> concentrator [label = "open wireguard connection"];
+   }
