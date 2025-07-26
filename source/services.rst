@@ -52,5 +52,5 @@ for the gluon node.
        node -> etcd [label = "GET /config?(pubkey,nonce,v6mtu,version)"];
        node <-- etcd [label = "JSON configuration"];
        node -> node [label = "apply wireguard config (nodeconfig.lua)"];
-       node -> concentrator [label = "open wireguard connection"];
+       node -> concentrator [label = "wireguard connection"];
    }
