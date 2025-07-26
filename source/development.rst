@@ -28,6 +28,14 @@ e.g. packaging of the lua scripts for gluon.
 
 `https://gitli.stratum0.org/ffbs/ffbs-packages <https://gitli.stratum0.org/ffbs/ffbs-packages>`_
 
+ffbs-gluon
+-------------
+FFBS gluon fork, we are in the process of removing the necessity to fork gluon
+and instead are moving towards upstreaming the relevant packages to `Gluon
+community packages <https://github.com/freifunk-gluon/community-packages>`_.
+
+`https://gitli.stratum0.org/ffbs/ffbs-gluon <https://gitli.stratum0.org/ffbs/ffbs-gluon>`_
+
 ffbs-site
 ---------
 The gluon FFBS site configuration. This contains the initial configuration,
