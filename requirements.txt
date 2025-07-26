@@ -1,3 +1,4 @@
 sphinx
 sphinxcontrib-nwdiag
 Pillow<10
+sphinxcontrib-seqdiag

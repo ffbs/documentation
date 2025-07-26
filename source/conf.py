@@ -41,6 +41,7 @@ release = '0.1'
 extensions = [
     'sphinx.ext.todo',
     'sphinxcontrib.nwdiag',
+    'sphinxcontrib.seqdiag',
 ]
 
 # Add any paths that contain templates here, relative to this directory.
