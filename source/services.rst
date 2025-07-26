@@ -28,8 +28,10 @@ localhost connection.
 
 Gluon
 =====
-Gluon is a build system and package collection to build embedded router
-firmwares for Freifunk Communities. It is based on `OpenWrt <https://openwrt.org>`_.
+`Gluon <https://github.com/freifunk-gluon/gluon>`_ is a build system
+and package collection to build embedded router firmwares
+for Freifunk Communities.
+It is based on `OpenWrt <https://openwrt.org>`_.
 
 Vagrant
 =======
